@@ -1,0 +1,19 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Secrets - NEVER commit these
+.streamlit/secrets.toml
+.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Private dataset - keep on your computer only
+Data/Training.csv
+Data/Testing.csv
